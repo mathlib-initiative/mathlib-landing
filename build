@@ -1,21 +1,13 @@
 #!/bin/bash
-set -e  # Exit on any error
+
+set -e
 
 echo "🔨 Building site..."
 
-# Clean and create the output directory
 rm -rf _site
 mkdir -p _site
 
-# For now, just copy index.html
-# Later, this can be replaced with a static site generator, build process, etc.
 echo "📄 Copying index.html..."
 cp index.html _site/
-
-# Add any other static assets here as your site grows
-# Example:
-# cp -r css _site/ 2>/dev/null || true
-# cp -r js _site/ 2>/dev/null || true
-# cp -r images _site/ 2>/dev/null || true
 
 echo "✅ Build complete! Output in _site/"
