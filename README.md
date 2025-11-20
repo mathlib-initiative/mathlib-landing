@@ -6,5 +6,5 @@ Deployment involves:
 
 # Local Development
 
-Use `build.sh` to generate `_site/*`.
-Use `python3 -m http.server 8000 --directory _site` (run from repo root) to serve the webpage on `localhost:8000`; stop with `Ctrl+C`.
+- Use `build.sh` to generate `_site/*`.
+- Use `python3 -m http.server 8000 --directory _site` (run from repo root) to serve the webpage on `localhost:8000`; stop with `Ctrl+C`.
