@@ -1,8 +1,10 @@
 # Deployment
 
 Deployment involves:
-- Run `build.sh`, which generates static webpage components in `_site/`
-- CI automatically uploads `_site/` to the configured AWS S3 bucket on pushes to `main`.
+- Running `build.sh`, which generates static webpage components in `_site/`
+- Deploying to github pages
+
+This is all handled by CI when a commit is made to `main`.
 
 # Local Development
 
