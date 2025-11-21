@@ -13,7 +13,4 @@ cp index.html _site/
 echo "🖼️ Copying favicon..."
 cp favicon.svg _site/
 
-echo "🔤 Copying fonts..."
-cp -R fonts _site/
-
 echo "✅ Build complete! Output in _site/"
